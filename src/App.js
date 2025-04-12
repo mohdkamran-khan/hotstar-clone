@@ -1,8 +1,7 @@
 import './App.css';
 import Header from './Components/Header';
 import Slider from './Components/Slider';
-
-import {col, Container, Row } from 'react-bootstrap';
+import {Container, Row } from 'react-bootstrap';
 import fauji from './Images/latestrelease/fauji.jpg'; 
 import dopatti from './Images/latestrelease/dopatti.jpg';
 import auronmaikahandumtha from './Images/latestrelease/auronmaikahandumtha.jpg';
@@ -75,14 +74,14 @@ function App() {
            <BsChevronCompactLeft classname="text-white text-[50px] absolute mt-[150px]" />
            <BsChevronCompactRight classname="text-white text-[50px] absolute mt-[150px]" />
             <div className='col flex-container bg-black flex '>
-              <img src={singham} />
-              <img src={vedaa} />
-              <img src={bloddydaddy} />
-              <img src={auronmaikahandumtha} />
-              <img src={dopatti} />
-              <img src={fauji} />
-              <img src={stree2} />
-              <img src={indianpoliceforce} />
+              <img alt="singham" src={singham} />
+              <img alt="Veda" src={vedaa} />
+              <img alt="bloodydaddy" src={bloddydaddy} />
+              <img alt="Hello" src={auronmaikahandumtha} />
+              <img  alt="Hello"src={dopatti} />
+              <img  alt="Hello"src={fauji} />
+              <img  alt="Hello" src={stree2} />
+              <img alt="Hello" src={indianpoliceforce} />
             </div>
           </div>
         </Row>
@@ -92,14 +91,14 @@ function App() {
         </Row>
         <Row style={{ overflowX: "scroll" }}>
           <div className='col flex-container bg-black flex'>
-            <img src={fc25} />
-            <img src={javelin} />
-            <img src={chess} />
-            <img src={baseball} />
-            <img src={cricket} />
-            <img src={polevault} />
-            <img src={archery} />
-            <img src={badminton} />
+            <img alt="Hello" src={fc25} />
+            <img alt="Hello" src={javelin} />
+            <img alt="Hello" src={chess} />
+            <img alt="Hello" src={baseball} />
+            <img alt="Hello" src={cricket} />
+            <img alt="Hello" src={polevault} />
+            <img alt="Hello" src={archery} />
+            <img alt="Hello" src={badminton} />
           </div>
         </Row>
 
@@ -108,14 +107,14 @@ function App() {
         </Row>
         <Row style={{ overflowX: "scroll" }}>
           <div className='col flex-container bg-black flex'>
-            <img src={armor} />
-            <img src={bloddy} />
-            <img src={fallguy} />
-            <img src={fastx} />
-            <img src={galaxy} />
-            <img src={gladiator} />
-            <img src={ruslaan} />
-            <img src={war} />
+            <img alt="Hello" src={armor} />
+            <img alt="Hello" src={bloddy} />
+            <img alt="Hello" src={fallguy} />
+            <img alt="Hello" src={fastx} />
+            <img alt="Hello" src={galaxy} />
+            <img alt="Hello" src={gladiator} />
+            <img alt="Hello" src={ruslaan} />
+            <img alt="Hello" src={war} />
           </div>
         </Row>
 
@@ -124,14 +123,14 @@ function App() {
         </Row>
         <Row style={{ overflowX: "scroll" }}>
           <div className='col flex-container bg-black flex'>
-            <img src={airplane} />
-            <img src={coolie} />
-            <img src={daddydaycare} />
-            <img src={dhamaal} />
-            <img src={hangover} />
-            <img src={millers} />
-            <img src={rushhour} />
-            <img src={thrdictator} />
+            <img alt="Hello" src={airplane} />
+            <img alt="Hello" src={coolie} />
+            <img alt="Hello"  src={daddydaycare} />
+            <img alt="Hello"  src={dhamaal} />
+            <img alt="Hello"  src={hangover} />
+            <img alt="Hello"  src={millers} />
+            <img alt="Hello" src={rushhour} />
+            <img alt="Hello" src={thrdictator} />
           </div>
         </Row>
 
@@ -140,14 +139,14 @@ function App() {
         </Row>
         <Row style={{ overflowX: "scroll" }}>
           <div className='col flex-container bg-black flex'>
-            <img src={daddyday} />
-            <img src={encanto} />
-            <img src={home} />
-            <img src={nemo} />
-            <img src={nimsisland} />
-            <img src={soul} />
-            <img src={spykids} />
-            <img src={upaway} />
+            <img alt="Hello" src={daddyday} />
+            <img alt="Hello" src={encanto} />
+            <img alt="Hello" src={home} />
+            <img alt="Hello" src={nemo} />
+            <img alt="Hello" src={nimsisland} />
+            <img alt="Hello" src={soul} />
+            <img alt="Hello" src={spykids} />
+            <img alt="Hello" src={upaway} />
           </div>
         </Row>
 
@@ -156,12 +155,12 @@ function App() {
         </Row>
         <Row style={{ overflowX: "scroll" }}>
           <div className='col flex-container bg-black flex'>
-            <img src={babyjohn} />
-            <img src={bear} />
-            <img src={fireinside} />
-            <img src={gamechanger} />
-            <img src={kanguva} />
-            <img src={salaar2} />
+            <img alt="Hello" src={babyjohn} />
+            <img alt="Hello"  src={bear} />
+            <img alt="Hello"  src={fireinside} />
+            <img alt="Hello"  src={gamechanger} />
+            <img alt="Hello" src={kanguva} />
+            <img alt="Hello" src={salaar2} />
           </div>
         </Row>
 
@@ -183,8 +182,8 @@ function App() {
         Terms of Use Privacy Policy FAQ<br/></div>
 
         <div className='flex space-x-20 p-8'>
-        <img src={playstore}/>
-        <img src={appstore}/></div>
+        <img alt="Hello" src={playstore}/>
+        <img alt="Hello" src={appstore}/></div>
 
       </div>
 
