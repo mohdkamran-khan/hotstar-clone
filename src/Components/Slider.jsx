@@ -11,27 +11,27 @@ export default function Slider(){
         <div className="slider px-10 py-4 bg-black">
         <Carousel>
           <Carousel.Item>
-            <img src={slide1} style={{width:"100%",height:"300px"}}/>
+            <img alt= "hello" src={slide1} style={{width:"100%",height:"300px"}}/>
           </Carousel.Item>
 
           <Carousel.Item>
-          <img src={slide2} style={{width:"100%",height:"300px"}}/>
+          <img alt= "hello" src={slide2} style={{width:"100%",height:"300px"}}/>
           </Carousel.Item>
           
           <Carousel.Item>
-          <img src={slide3} style={{width:"100%",height:"300px"}}/>
+          <img alt= "hello" src={slide3} style={{width:"100%",height:"300px"}}/>
           </Carousel.Item>
 
           <Carousel.Item>
-          <img src={slide4} style={{width:"100%",height:"300px"}}/>
+          <img alt= "hello" src={slide4} style={{width:"100%",height:"300px"}}/>
           </Carousel.Item>
 
           <Carousel.Item>
-          <img src={slide5} style={{width:"100%",height:"300px"}}/>
+          <img alt= "hello" src={slide5} style={{width:"100%",height:"300px"}}/>
           </Carousel.Item>
 
           <Carousel.Item>
-          <img src={slide6} style={{width:"100%",height:"300px"}}/>
+          <img alt= "hello" src={slide6} style={{width:"100%",height:"300px"}}/>
           </Carousel.Item>
         </Carousel>
         </div>

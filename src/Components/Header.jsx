@@ -15,7 +15,7 @@ function Header() {
   return (<>
     <div className='header text-white flex items-center gap-20 my-0 p-1 m-1 bg-black  '>
     <div className= "brandLogo px-4 py-1 items-center">
-      <img src={sitelogo} className='w-[120px] h-[50px]'/>
+      <img alt= "hello" src={sitelogo} className='w-[120px] h-[50px]'/>
       <button class="bg-transparent text-yellow-500 py-0 px-4 flex items-center pt-1">Subscribe <IoIosArrowForward /></button>    
     </div>
 

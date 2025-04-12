@@ -36,7 +36,7 @@ function Production() {
     <div className='flex bg-black mt-10 p-20 space-x-10 items-center'>
       {productionList.map((item) => (
         <div className=' hover:scale-110 transition-all duration-300 ease-in-out cursor-pointer'>
-            <img src={item.img} className='w-full' />
+            <img alt= "hello" src={item.img} className='w-full' />
         </div>
       ))}
     </div>

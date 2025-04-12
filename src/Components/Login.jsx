@@ -8,7 +8,7 @@ function Login() {
   return (
     <div classname='signuppage'>
         <div className='weblogo flex items-center gap-8'>
-            <img src={signuplogo}/>
+            <img alt= "hello" src={signuplogo}/>
     <div className='signup items-center'>
         <Card style={{width:'70rem'}}>
           <Card.Body className='bg-black text-white'>
